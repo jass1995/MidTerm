@@ -10,13 +10,32 @@ import Foundation
 class Order
 {
     var OrderId:String!
-    var OrderDate:Date!
-    var  Ordertotal:Int!
-    var ProductArray = [Int]()
-    
-    
+    let currentDate = Date()
+  
+    init()
+    {
+        self.OrderId=""
+      
+    }
+    init(OrderId:String) {
+        self.OrderId = OrderId
+        
+    }
+ 
+    func printData()
+    {
+        
+        print("OrderID  : \(self.OrderId!)")
+        
+        
+        
+    }
+
     
 }
+
+    
+
 
 
 

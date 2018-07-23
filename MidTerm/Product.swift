@@ -12,28 +12,33 @@ class Product:Manufacturer
     var productId: String!
     var productName: String!
     var price: Double!
-    var quantity: Int!
+    var quantity: Double!
+    var Total:Double!
     
     
     override init() {
         super.init()
       
     }
-   init(ManufacturerId:Int, ManufacturerName: String,productId:String,productName: String,price: Double,quantity: Int)
+   init(ManufacturerId:Int, ManufacturerName: String,productId:String,productName: String,price: Double,quantity: Double)
     {
         super.init(Manufacturerid:ManufacturerId, ManufacturerName: ManufacturerName)
         self.productId = productId
         self.productName = productName
         self.price = price
         self.quantity = quantity
+        self.Total=self.price * self.quantity
     }
+ 
    
     func Data()
     {
+       
         print("ProductID     : \( self.productId!)")
         print("ProductName   : \(self.productName!)")
         print("Price          : \(self.price!)")
         print("Quantity      : \(self.quantity!)")
+        print("Total : \(self.Total!)")
         
     }
 
@@ -45,4 +50,5 @@ super.printData()
     func getName() -> String {
         return "Your name is \(productName)"
     }
+   
 }
