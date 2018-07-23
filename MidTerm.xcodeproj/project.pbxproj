@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9BE9843621062C9A002C6178 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9843521062C9A002C6178 /* main.swift */; };
+		9BE9843E21062CDF002C6178 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9843D21062CDF002C6178 /* Product.swift */; };
+		9BE9844021062CF0002C6178 /* Manufacturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9843F21062CF0002C6178 /* Manufacturer.swift */; };
+		9BE9844221062CFE002C6178 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9844121062CFE002C6178 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		9BE9843221062C9A002C6178 /* MidTerm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MidTerm; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE9843521062C9A002C6178 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9BE9843D21062CDF002C6178 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		9BE9843F21062CF0002C6178 /* Manufacturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manufacturer.swift; sourceTree = "<group>"; };
+		9BE9844121062CFE002C6178 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				9BE9843521062C9A002C6178 /* main.swift */,
+				9BE9844121062CFE002C6178 /* Order.swift */,
+				9BE9843F21062CF0002C6178 /* Manufacturer.swift */,
+				9BE9843D21062CDF002C6178 /* Product.swift */,
 			);
 			path = MidTerm;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BE9843621062C9A002C6178 /* main.swift in Sources */,
+				9BE9843E21062CDF002C6178 /* Product.swift in Sources */,
+				9BE9844221062CFE002C6178 /* Order.swift in Sources */,
+				9BE9844021062CF0002C6178 /* Manufacturer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
